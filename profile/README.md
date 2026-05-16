@@ -2,31 +2,36 @@
 
 # XOps Labs
 
-**Open-source infrastructure for AI-native reliability, observability, cost governance, and secure operations.**
+**Open-source systems for AI-native operations, observability, automation, security, and cost governance.**
 
-We build small, sharp, self-hosted tools that help platform teams see, govern, and operate AI systems with the same confidence they expect from the rest of their cloud-native stack.
+XOps Labs is a place for practical infrastructure: tools that help teams run modern software and AI workloads with clearer signals, safer defaults, and less operational guesswork.
 
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/xops-labs/llm-usage-exporter/blob/main/LICENSE)
-[![Status](https://img.shields.io/badge/Status-active%20development-brightgreen.svg)](https://github.com/xops-labs/llm-usage-exporter)
-[![.NET](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet&logoColor=white)](https://github.com/xops-labs/llm-usage-exporter)
-[![ASP.NET Core](https://img.shields.io/badge/ASP.NET_Core-10-512BD4?logo=dotnet&logoColor=white)](https://github.com/xops-labs/llm-usage-exporter)
-[![Prometheus](https://img.shields.io/badge/Prometheus-native-E6522C?logo=prometheus&logoColor=white)](https://github.com/xops-labs/llm-usage-exporter)
-[![Grafana](https://img.shields.io/badge/Grafana-dashboards-F46800?logo=grafana&logoColor=white)](https://github.com/xops-labs/llm-usage-exporter/tree/main/dashboards)
-[![Docker](https://img.shields.io/badge/Docker-ready-2496ED?logo=docker&logoColor=white)](https://github.com/xops-labs/llm-usage-exporter/tree/main/deploy)
-[![CI](https://github.com/xops-labs/llm-usage-exporter/actions/workflows/ci.yml/badge.svg)](https://github.com/xops-labs/llm-usage-exporter/actions/workflows/ci.yml)
-[![CodeQL](https://github.com/xops-labs/llm-usage-exporter/actions/workflows/codeql.yml/badge.svg)](https://github.com/xops-labs/llm-usage-exporter/actions/workflows/codeql.yml)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/xops-labs)
+[![Status](https://img.shields.io/badge/Status-active%20lab-brightgreen.svg)](https://github.com/xops-labs)
+[![Open Source](https://img.shields.io/badge/Open%20Source-by%20default-111827.svg)](https://github.com/xops-labs)
+[![Platform Engineering](https://img.shields.io/badge/Platform%20Engineering-tooling%20first-2563EB.svg)](https://github.com/xops-labs)
+[![Observability](https://img.shields.io/badge/Observability-signals%20over%20guesswork-0F766E.svg)](https://github.com/xops-labs)
+[![DevSecOps](https://img.shields.io/badge/DevSecOps-secure%20operations-7C3AED.svg)](https://github.com/xops-labs)
+[![AI FinOps](https://img.shields.io/badge/AI%20FinOps-cost%20aware-5B2C6F.svg)](https://github.com/xops-labs)
+[![LLMOps](https://img.shields.io/badge/LLMOps-production%20ready-7B2D8E.svg)](https://github.com/xops-labs)
 
-[![LLMOps](https://img.shields.io/badge/LLMOps-ready-7B2D8E)](https://github.com/xops-labs/llm-usage-exporter)
-[![AI FinOps](https://img.shields.io/badge/AI%20FinOps-cost%20signals-5B2C6F)](https://github.com/xops-labs/llm-usage-exporter)
-[![FOCUS Spec](https://img.shields.io/badge/FOCUS%20Spec-v1.0%20active-2E75B6)](https://github.com/xops-labs/llm-usage-exporter)
-[![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-OTLP%20active-425CC7?logo=opentelemetry&logoColor=white)](https://github.com/xops-labs/llm-usage-exporter)
-[![OpenMetrics](https://img.shields.io/badge/OpenMetrics-v1.0.0-E6522C)](https://github.com/xops-labs/llm-usage-exporter)
-[![Providers](https://img.shields.io/badge/Providers-OpenAI%20%7C%20Azure%20%7C%20Anthropic%20%7C%20Gemini%20%7C%20Bedrock-FF6B35)](https://github.com/xops-labs/llm-usage-exporter)
-[![Multi-Cloud](https://img.shields.io/badge/Multi--Cloud-AWS%20%7C%20Azure%20%7C%20GCP-4285F4)](https://github.com/xops-labs/llm-usage-exporter)
-[![Cloud-Native](https://img.shields.io/badge/Cloud--Native-container%20first-326CE5?logo=kubernetes&logoColor=white)](https://github.com/xops-labs/llm-usage-exporter)
-[![Zero Vendor Lock-in](https://img.shields.io/badge/Zero%20Vendor%20Lock--in-self--hosted-1F2937)](https://github.com/xops-labs/llm-usage-exporter)
-[![Low Cardinality](https://img.shields.io/badge/Low%20Cardinality-Prometheus--safe-059669)](https://github.com/xops-labs/llm-usage-exporter)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/xops-labs/llm-usage-exporter/blob/main/CONTRIBUTING.md)
+[![.NET](https://img.shields.io/badge/.NET-ready-512BD4?logo=dotnet&logoColor=white)](https://github.com/xops-labs)
+[![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-services-512BD4?logo=dotnet&logoColor=white)](https://github.com/xops-labs)
+[![Prometheus](https://img.shields.io/badge/Prometheus-metrics-E6522C?logo=prometheus&logoColor=white)](https://github.com/xops-labs)
+[![Grafana](https://img.shields.io/badge/Grafana-dashboards-F46800?logo=grafana&logoColor=white)](https://github.com/xops-labs)
+[![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-traces%20%7C%20metrics-425CC7?logo=opentelemetry&logoColor=white)](https://github.com/xops-labs)
+[![OpenMetrics](https://img.shields.io/badge/OpenMetrics-compatible-E6522C.svg)](https://github.com/xops-labs)
+[![Docker](https://img.shields.io/badge/Docker-container%20first-2496ED?logo=docker&logoColor=white)](https://github.com/xops-labs)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-cloud--native-326CE5?logo=kubernetes&logoColor=white)](https://github.com/xops-labs)
+[![CI](https://img.shields.io/badge/CI-automated%20quality-111827.svg)](https://github.com/xops-labs)
+[![CodeQL](https://img.shields.io/badge/CodeQL-security%20analysis-1F6FEB.svg)](https://github.com/xops-labs)
+
+[![FOCUS Spec](https://img.shields.io/badge/FOCUS%20Spec-cost%20data-2E75B6.svg)](https://github.com/xops-labs)
+[![Multi-Cloud](https://img.shields.io/badge/Multi--Cloud-AWS%20%7C%20Azure%20%7C%20GCP-4285F4.svg)](https://github.com/xops-labs)
+[![Cloud-Native](https://img.shields.io/badge/Cloud--Native-platform%20ready-326CE5.svg)](https://github.com/xops-labs)
+[![Zero Vendor Lock-in](https://img.shields.io/badge/Zero%20Vendor%20Lock--in-self--hosted-1F2937.svg)](https://github.com/xops-labs)
+[![Low Cardinality](https://img.shields.io/badge/Low%20Cardinality-operable%20metrics-059669.svg)](https://github.com/xops-labs)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/xops-labs)
 
 </div>
 
@@ -34,42 +39,48 @@ We build small, sharp, self-hosted tools that help platform teams see, govern, a
 
 ```mermaid
 flowchart LR
-    Workloads["AI workloads"] --> Signals["Usage, tokens, requests, spend"]
-    Signals --> Exporters["Prometheus, OTLP, FOCUS"]
-    Exporters --> Ops["Grafana, Alertmanager, FinOps"]
-    Ops --> Teams["Platform, SRE, Finance, Product"]
+    Build["Build"] --> Observe["Observe"]
+    Observe --> Govern["Govern"]
+    Govern --> Automate["Automate"]
+    Automate --> Secure["Secure"]
+    Secure --> Improve["Improve"]
+    Improve --> Build
 ```
 
-## What We Build
+## What XOps Labs Works On
 
-XOps Labs focuses on tools that make AI systems easier to operate in production:
+XOps Labs is not a single-project org. It is an open-source lab for tools that sit close to production operations: the layer where platform engineering, observability, security, FinOps, and AI systems all start to overlap.
 
-| Area | What we care about |
+| Workstream | Direction |
 |---|---|
-| Observability | Metrics, dashboards, alerts, health signals, and operational feedback loops |
-| AI FinOps | Cost visibility, showback, budget burn, provider spend, and model-level attribution |
-| Platform operations | Kubernetes-ready, automation-friendly, self-hosted building blocks |
-| Security and governance | Minimal permissions, inspectable code, open standards, and vendor-neutral workflows |
+| AI-native operations | LLMOps, model usage visibility, provider telemetry, agent-aware infrastructure |
+| Observability | Prometheus metrics, Grafana dashboards, OpenTelemetry, health signals, alert-ready data |
+| FinOps and governance | Cost attribution, budget signals, FOCUS-style records, showback and chargeback workflows |
+| Platform automation | Kubernetes, containers, CI/CD, release workflows, deployment scaffolding, day-2 operations |
+| Security operations | Least privilege, secret-safe patterns, CodeQL, supply-chain metadata, secure defaults |
+| Developer experience | Practical docs, local-first demos, repeatable examples, boringly useful tooling |
 
-## Featured Project
+## Current Public Work
 
 ### [llm-usage-exporter](https://github.com/xops-labs/llm-usage-exporter)
 
-A self-hosted Prometheus exporter for LLM usage, token consumption, request volume, prompt caching, and USD cost telemetry across OpenAI, Azure OpenAI, Anthropic Claude, Google Gemini, and AWS Bedrock.
+The first public XOps Labs project: a self-hosted Prometheus and OpenTelemetry exporter for LLM usage, token volume, request counts, prompt caching, and cost telemetry across major AI providers.
 
-It gives platform, SRE, FinOps, and engineering teams a near-real-time AI cost signal inside Prometheus, Grafana, OpenTelemetry, Alertmanager, and FOCUS-compatible cost workflows.
+It is one example of the broader XOps Labs direction: make invisible operational signals visible, keep the system self-hosted, and give teams data they can actually act on.
+
+More projects will follow the same pattern: focused tools, open standards, production-minded defaults, and clear docs.
 
 ## Operating Principles
 
 - Open source by default
-- Self-hosted and vendor-neutral
-- Low-cardinality telemetry that can survive real Prometheus deployments
-- OpenTelemetry and OpenMetrics friendly
-- Built for cloud-native teams running Kubernetes, containers, and CI/CD
-- Cost, reliability, and governance treated as the same operational problem
+- Self-hosted before SaaS-dependent
+- Open standards over proprietary lock-in
+- Low-cardinality, production-safe telemetry
+- Security and cost treated as operational concerns, not afterthoughts
+- Tools should be easy to run locally and credible in production
 
-## Contributing
+## Get Involved
 
-We welcome practical, production-minded contributions: provider integrations, dashboards, deployment examples, bug reports, docs, tests, and hard-earned operational feedback from real AI platforms.
+Bring issues, ideas, provider integrations, dashboards, examples, docs, tests, and real-world operational feedback. XOps Labs is built around practical tools that become sharper when operators use them.
 
-Start here: [llm-usage-exporter contribution guide](https://github.com/xops-labs/llm-usage-exporter/blob/main/CONTRIBUTING.md)
+Explore the repositories: [github.com/xops-labs](https://github.com/xops-labs)
