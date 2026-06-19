@@ -64,11 +64,17 @@ XOps Labs is not a single-project org. It is an open-source lab for tools that s
 
 ### [llm-usage-exporter](https://github.com/xops-labs/llm-usage-exporter)
 
-The first public XOps Labs project: a self-hosted Prometheus and OpenTelemetry exporter for LLM usage, token volume, request counts, prompt caching, and cost telemetry across major AI providers.
+A self-hosted Prometheus and OpenTelemetry exporter for LLM usage, token volume, request counts, prompt caching, and cost telemetry across major AI providers.
 
-It is one example of the broader XOps Labs direction: make invisible operational signals visible, keep the system self-hosted, and give teams data they can actually act on.
+It shows the XOps Labs observability pattern: make invisible AI usage signals visible, keep telemetry self-hosted, and give teams data they can actually act on.
 
-More projects will follow the same pattern: focused tools, open standards, production-minded defaults, and clear docs.
+### [relixq-oss](https://github.com/xops-labs/relixq-oss)
+
+An open-source Post-Quantum Cryptography scanner that inventories quantum-vulnerable cryptography across source code, dependencies, TLS endpoints, certificates, and configs.
+
+Relix-Q scores risk, grades crypto-agility, exports SARIF for CI gating, and keeps scans self-hosted so code stays on the operator's machine.
+
+These projects follow the same pattern: focused tools, open standards, production-minded defaults, and clear docs.
 
 ## Operating Principles
 
